@@ -48,18 +48,18 @@ function getUserAnswer2() {
     }
 }
 
-// function repeatImage() {
-//     let userNumber = prompt("How many times do you want to see griffey on the couch?");
-//     userNumber = parseInt(userNumber)
-//     for (let i = 0; i < userNumber; i++) {
-//         document.write('<img src="images/39B523CB-42C9-4D35-AACE-79C832479756.jpg" alt="Outdoor Dog">')
-//     }
-// }
-
 function repeatImage() {
     let userNumber = prompt("How many times do you want to see griffey on the couch?");
     userNumber = parseInt(userNumber)
-    for (let i = 0; i < userNumber && userNumber < 8; i++) {
+    for (let i = 0; i < userNumber; i++) {
         document.write('<img src="images/39B523CB-42C9-4D35-AACE-79C832479756.jpg" alt="Outdoor Dog">')
     }
 }
+
+// function repeatImage() {
+//     let userNumber = prompt("How many times do you want to see griffey on the couch?");
+//     userNumber = parseInt(userNumber)
+//     for (let i = 0; i < userNumber && userNumber < 8; i++) {
+//         document.write('<img src="images/39B523CB-42C9-4D35-AACE-79C832479756.jpg" alt="Outdoor Dog">')
+//     }
+// }
