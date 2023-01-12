@@ -34,7 +34,11 @@
     <h2>Favorite Dogs</h2>
     <script>
       let userDog = prompt("What is your favorite dog?");
-      document.write(`I love ${userDog} too!`);
+      if (userDog) {
+        document.write(`I love ${userDog} too!`);
+      } else {
+        document.write(`That's not a valid answer`)
+      }
     </script>
     <section>
       <h4>Outdoor dogs</h4>
