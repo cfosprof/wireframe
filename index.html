@@ -4,10 +4,10 @@
 <head>
   <title>Dogs</title>
   <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
 </head>
 
 <body>
-
   <header>
     <h1>We Love Dogs</h1>
     <nav>
@@ -32,20 +32,10 @@
       tempt.
     </p>
     <h2>Favorite Dogs</h2>
-    <script>
-      let userDog = prompt("What is your favorite dog?");
-      if (userDog) {
-        document.write(`I love ${userDog} too!`);
-      } else {
-        alert(`That's not a valid answer, please reload the page again because I don't want to handle a bunch of conditionals to make this work right now`)
-      }
-    </script>
+    <script>getName();</script>
     <section>
       <h4>Outdoor dogs</h4>
-      <script>
-        let userAnswer = prompt("What is your favorite outdoor dog?");
-        document.write(`${userAnswer}'s' are awesome!`);
-      </script>
+      <script>getUserAnswer();</script>
       <img src="images/IMG_8196.JPG" alt="Outdoor Dog">
       <ul>
         <li>Husky</li>
@@ -56,10 +46,7 @@
     </section>
     <section>
       <h4>Indoor Dogs</h4>
-      <script>
-        let userAnswer2 = prompt("What is your favorite indoor dog?");
-        document.write(`${userAnswer2}\'s are awesome too!`);
-      </script>
+      <script>getUserAnswer2()</script>
       <img src="images/39B523CB-42C9-4D35-AACE-79C832479756.jpg" alt="Outdoor Dog">
       <ul>
         <li>Griffey</li>
